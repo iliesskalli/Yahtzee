@@ -8,7 +8,7 @@ import unittest
 #Classe de test 
 #On teste indépendement chaque cas possible  
 #
-
+ 
 #-----------------------------------------------------------------------------
 
 class TestYahtzee(unittest.TestCase):

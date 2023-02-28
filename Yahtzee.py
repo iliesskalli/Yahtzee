@@ -9,7 +9,7 @@ class Yahtzee:
 #-----------------------------1---------------------------------------------
 
     def ones(Liste_des_des):
-        score = 0
+        score = 0 
         for i in (Liste_des_des):
             if i == 1:
                 score += 1
