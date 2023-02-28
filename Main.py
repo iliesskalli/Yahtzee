@@ -150,7 +150,7 @@ def game():
 #-----------------------------------------------------------------------------
 
     elif combination_choice == 7:
-        Yahtzee.Three_of_a_kind(VosChoix)
+        Yahtzee.tcleahree_of_a_kind(VosChoix)
         
 #-----------------------------------------------------------------------------
 
