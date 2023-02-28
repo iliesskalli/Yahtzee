@@ -18,9 +18,19 @@ def game():
 #--------------------------Penser au calcul différé --------------------------
     
     VosCombinaisons = [
-        '[1]Ones - [2]Twos - [3]Threes - [4]Fours - [5]Fives - [6]Sixes',
-        '[7]Three of a kind - [8]Four of a kind - [9]Full House',
-        '[10]Small Straight - [11]Large Straight - [12]Chance - [13]Yahtzee']
+        '[1]Ones',
+        '[2]Twos', 
+        '[3]Threes', 
+        '[4]Fours', 
+        '[5]Fives',
+        '[6]Sixes',
+        '[7]Three of a kind',
+        '[8]Four of a kind',
+        '[9]Full House',
+        '[10]Small Straight',
+        '[11]Large Straight',
+        '[12]Chance',
+        '[13]Yahtzee']
     
     
     #Une fois le calcul lancé, on définit le nombre d'essai pouvant être incrementé (3)
