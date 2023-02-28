@@ -1,3 +1,14 @@
+#Yahtzee/Main.py /
+#@iliesskalli
+#iliesskalli V.3
+#Latest commit bc99016 6 minutes ago
+#History
+#1 contributor
+#184 lines (117 sloc)  5.34 KB
+
+
+
+
 #On définit la classe
 #Définir les retours de scores
 #Les combinaisons
@@ -201,3 +212,18 @@ class Yahtzee:
              
         print("Votre Score est : {}".format(score))
         return score
+#Footer
+#© 2023 GitHub, Inc.
+#Footer navigation
+#Terms
+#Privacy
+#Security
+#Status
+#Docs
+#Contact GitHub
+#Pricing
+#API
+#Training
+#Blog
+#About
+#Yahtzee/Yahtzee.cpython-37.pyc at master · iliesskalli/Yahtzee
