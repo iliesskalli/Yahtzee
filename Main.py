@@ -1,3 +1,11 @@
+#Yahtzee/Main.py /
+#@iliesskalli
+#iliesskalli V.3
+#Latest commit bc99016 6 minutes ago
+#History
+#1 contributor
+#184 lines (117 sloc)  5.34 KB
+
 from Yahtzee import Yahtzee
 import random
 
@@ -182,3 +190,18 @@ def game():
 
 if __name__ == '__main__':
     game()
+#Footer
+#© 2023 GitHub, Inc.
+#Footer navigation
+#Terms
+#Privacy
+#Security
+#Status
+#Docs
+#Contact GitHub
+#Pricing
+#API
+#Training
+#Blog
+#About
+#Yahtzee/Yahtzee.cpython-37.pyc at master · iliesskalli/Yahtzee
