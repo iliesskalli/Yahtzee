@@ -1,11 +1,11 @@
-from yahtzee import Yahtzee
+from Yahtzee import Yahtzee
 import random
 
 
 #Développement Data : Lancement du Jeu : Import + Random 
 #Definition de la problématique
 #Gestion des dès:
-#Combinaisons : 13
+#Combinaisons : 13 
 #Calculs : combinaisons
     
 

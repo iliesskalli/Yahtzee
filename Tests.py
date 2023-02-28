@@ -6,7 +6,7 @@ import unittest
 
 
 #Classe de test 
-#On teste indépendement chaque cas possible 
+#On teste indépendement chaque cas possible  
 #
 
 #-----------------------------------------------------------------------------

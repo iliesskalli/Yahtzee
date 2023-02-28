@@ -123,7 +123,7 @@ class Yahtzee:
 
 #-----------------------------4 identiques------------------------------------
 
-
+ 
 
     def four_of_a_kind(Liste_des_des):
         compte = 0
