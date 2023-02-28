@@ -103,83 +103,83 @@ def game():
         print("Vos Choix : {}".format(VosChoix))
 
     print('Choix de la combinaison, de ce choix dépend la manière dont sont calculés vos points :')
-    for combination in VosCombinaisons:
-        print(combination)
-    combination_choice = int(input())
+    for combinaison in VosCombinaisons:
+        print(combinaison)
+    combinaison_choice = int(input())
     
     
 #-----------------------------------------------------------------------------
 
 
 #Dans le cas ou l'utilisateur rentre une valeur supérieur à 13
-    if combination_choice not in range(1, 14):
+    if combinaison_choice not in range(1, 14):
         while True:
             print("Erreur ! Le nombre de combinaison ne dépasse pas 13")
-            combination_choice = int(input())
-            if combination_choice in range(1, 14):
+            combinaison_choice = int(input())
+            if combinaison_choice in range(1, 14):
                 break
             
             
 #-------------------GESTION DES COMBINAISONS----------------------------------
             
-    if combination_choice == 1:
+    if combinaison_choice == 1:
         Yahtzee.ones(VosChoix)
         
 #-----------------------------------------------------------------------------
        
-    elif combination_choice == 2:
+    elif combinaison_choice == 2:
         Yahtzee.twos(VosChoix)
 #-----------------------------------------------------------------------------
       
-    elif combination_choice == 3:
+    elif combinaison_choice == 3:
         Yahtzee.threes(VosChoix)
 #-----------------------------------------------------------------------------
 
-    elif combination_choice == 4:
+    elif combinaison_choice == 4:
         Yahtzee.fours(VosChoix)
 #-----------------------------------------------------------------------------
 
-    elif combination_choice == 5:
+    elif combinaison_choice == 5:
         Yahtzee.fives(VosChoix)
         
 #-----------------------------------------------------------------------------
 
-    elif combination_choice == 6:
+    elif combinaison_choice == 6:
         Yahtzee.sixes(VosChoix)
         
 #-----------------------------------------------------------------------------
 
-    elif combination_choice == 7:
+    elif combinaison_choice == 7:
         Yahtzee.tcleahree_of_a_kind(VosChoix)
         
 #-----------------------------------------------------------------------------
 
-    elif combination_choice == 8:
+    elif combinaison_choice == 8:
         Yahtzee.four_of_a_kind(VosChoix)
         
 #-----------------------------------------------------------------------------
 
-    elif combination_choice == 9:
+    elif combinaison_choice == 9:
         Yahtzee.fullhouse(VosChoix)
         
 #-----------------------------------------------------------------------------
 
-    elif combination_choice == 10:
+    elif combinaison_choice == 10:
         Yahtzee.smallstraight(VosChoix)
         
 #-----------------------------------------------------------------------------
 
-    elif combination_choice == 11:
+    elif combinaison_choice == 11:
         Yahtzee.largestraight(VosChoix)
         
 #-----------------------------------------------------------------------------
 
-    elif combination_choice == 12:
+    elif combinaison_choice == 12:
         Yahtzee.chance(VosChoix) 
         
 #-----------------------------------------------------------------------------
 
-    elif combination_choice == 13:
+    elif combinaison_choice == 13:
         
 #-----------------------------------------------------------------------------
 
