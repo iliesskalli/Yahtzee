@@ -85,6 +85,7 @@ class Yahtzee:
         for i in (Liste_des_des):
             if i == 6:
                 score += 6
+        print("Votre Score est : {}".format(score))
         return score
     
 
