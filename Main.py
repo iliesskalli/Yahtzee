@@ -15,7 +15,7 @@ import random
 #Gestion des dès:
 #Combinaisons : 13 
 #Calculs : combinaisons
-    
+     
 
 
 def game():

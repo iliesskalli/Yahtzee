@@ -133,7 +133,7 @@ class TestYahtzee(unittest.TestCase):
 
 #-----------------------------------------------------------------------------
 
-
+ 
 
     def test_four_of_a_kind(self):
         Array_four_Of_A_Kind = [5, 5, 5, 5, 6]

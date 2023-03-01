@@ -75,7 +75,8 @@ class Yahtzee:
         print("Votre Score est : {}".format(score))
         return score
     
-
+ 
+ 
 #-----------------------------6---------------------------------------------
 
 
