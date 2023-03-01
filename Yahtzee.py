@@ -69,7 +69,7 @@ class Yahtzee:
 
     def fives(Liste_des_des):
         score = 0
-        for i in (Liste_des_des):
+        for i in (Liste_des_des): 
             if i == 5:
                 score += 5
         print("Votre Score est : {}".format(score))
