@@ -80,9 +80,10 @@ class TestYahtzee(unittest.TestCase):
 #-----------------------------------------------------------------------------
 
 
-    def test_three_of_a_kind(self):
+      def test_three_of_a_kind(self):
         Array_three_of_a_kind = [3, 3, 3, 4, 1]
-        assert Yahtzee.three_of_a_kind(Array_three_Of_A_Kind) == sum(Array_three_Of_A_Kind)
+        assert Yahtzee.three_of_a_kind(Array_three_of_a_kind) == sum(Array_three_of_a_kind)
+        
         
         
 #-----------------------------------------------------------------------------
